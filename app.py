@@ -9,7 +9,6 @@ st.set_page_config(page_title="SocialPulse - GenAI Analytics", layout="wide")
 st.title("SocialPulse: AI-Powered Social Media Analyzer")
 st.markdown("""
 **Objective:** Analyze social media text for Sentiment and Entities using LLM-based pipelines.
-*Built for the JioStar Data Science PLI Application.*
 """)
 
 # 2. Loading Models (Caching prevents reloading on every click)
